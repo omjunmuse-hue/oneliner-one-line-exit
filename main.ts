@@ -9,7 +9,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const ENTRY = "I quit. The printer saw it coming and has my letter ready.";
+// The resignation, sharpened: a specific job behind it — nine years of
+// IT support — and the fix it always prescribed, finally applied to itself.
+const ENTRY = "After nine years of turning it off and on again for this company, I am finally applying the same fix to my career: goodbye.";
 
 // The gate's shape, checked before handing in.
 const chars = [...ENTRY].length;
